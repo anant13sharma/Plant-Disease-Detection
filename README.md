@@ -56,10 +56,10 @@ These results confirm that the model generalizes well, with strong validation pe
 ## Screenshots
 
 ### Model Accuracy and Loss over Epochs
-![Accuracy and Loss Plot](screenshots/accuracy_loss_plot.png)
+![Accuracy and Loss Plot](screenshots/a.png)
 
 ### Confusion Matrix
-![Confusion Matrix](screenshots/confusion_matrix.png)
+![Confusion Matrix](screenshots/b.png)
 
 
 
