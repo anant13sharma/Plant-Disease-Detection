@@ -1,4 +1,30 @@
 # Plant-Disease-Detection
+
+## Overview
+
+This project aims to develop a deep learning-based classification system for identifying **plant diseases from leaf images**. Using a Convolutional Neural Network (CNN) trained on a large, augmented dataset of healthy and diseased leaves, the system classifies input images into categories such as *Healthy*, *Early Blight*, and *Late Blight*.
+
+The training process achieved high performance:
+- **98.10% accuracy on the training set**
+- **95.08% accuracy on the validation set**
+
+This suggests the model generalizes well on clean and consistent image data. The system is suitable for research, early-stage deployment, and educational use in digital agriculture.
+
+### Where the Model Performs Well
+- On high-quality, lab-like images with consistent lighting and backgrounds
+- On the specific diseases and plant types included in the training dataset
+- In environments where images are collected in controlled settings (e.g., research labs, phone apps with leaf scanner modes)
+
+### Where the Model May Perform Poorly
+- On images taken in real-world conditions with **variable lighting**, **blur**, **partial leaves**, or **noisy backgrounds**
+- On **plant species or disease types not included** in the training set
+- When applied to **non-leaf plant parts** (e.g., stem or fruit)
+- In scenarios where multiple diseases appear simultaneously or where symptoms are subtle or overlapping
+
+To improve field performance, further training with diverse, real-world images and domain-specific tuning would be required.
+
+This project demonstrates the feasibility of CNNs for agricultural image classification and serves as a foundation for scalable, AI-assisted plant health monitoring tools.
+
 ---
 ## Dataset Credit
 
