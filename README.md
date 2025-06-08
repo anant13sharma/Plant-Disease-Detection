@@ -43,16 +43,17 @@ Training is done using the notebook: `Train_plant_disease.ipynb`.
 
 ## Evaluation
 
-Extracted from `training_hist.json` after 10 epochs:
+After training for 10 epochs, the model was evaluated on the complete training and validation datasets.
 
-| Metric                   | Value     |
-|--------------------------|-----------|
-| Final Training Accuracy  | 97.07%    |
-| Final Validation Accuracy| 95.08%    |
-| Final Training Loss      | 0.1028    |
-| Final Validation Loss    | 0.1969    |
+| Metric                   | Value       |
+|--------------------------|-------------|
+| Final Training Accuracy  | 98.10%      |
+| Final Validation Accuracy| 95.08%      |
+| Final Training Loss      | 0.0600      |
+| Final Validation Loss    | 0.1969      |
 
-The model generalizes well with minimal overfitting.
+These results confirm that the model generalizes well, with strong validation performance and minimal signs of overfitting.
+
 
 ---
 
