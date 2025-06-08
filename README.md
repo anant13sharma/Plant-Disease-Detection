@@ -53,6 +53,14 @@ After training for 10 epochs, the model was evaluated on the complete training a
 | Final Validation Loss    | 0.1969      |
 
 These results confirm that the model generalizes well, with strong validation performance and minimal signs of overfitting.
+## Screenshots
+
+### Model Accuracy and Loss over Epochs
+![Accuracy and Loss Plot](screenshots/accuracy_loss_plot.png)
+
+### Confusion Matrix
+![Confusion Matrix](screenshots/confusion_matrix.png)
+
 
 
 ---
